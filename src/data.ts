@@ -1,7 +1,12 @@
 import { TreatmentCase, Review, TimelineEvent, PressPublication } from './types';
 
-export const DOCTOR_PORTRAIT = '/src/assets/images/dr_vaishnavi_sahu_1781107086849.png';
-export const CLINIC_INTERIOR = '/src/assets/images/skin_clinic_interior_1781107102698.png';
+import doctorPortrait from './assets/images/dr_vaishnavi_sahu_1781107086849.png';
+import clinicInterior from './assets/images/skin_clinic_interior_1781107102698.png';
+import acneBefore from './assets/images/acne_before_1781107125280.png';
+import acneAfter from './assets/images/acne_after_1781107143360.png';
+
+export const DOCTOR_PORTRAIT = doctorPortrait;
+export const CLINIC_INTERIOR = clinicInterior;
 
 export const TREATMENT_CASES: TreatmentCase[] = [
   {
@@ -9,8 +14,8 @@ export const TREATMENT_CASES: TreatmentCase[] = [
     title: 'Advanced Fractional Laser Scar Revision',
     type: 'Clinical Acne Scar treatment',
     description: 'Patient presented with moderate grade-III icepick and boxcar acne scars. Treatment plan involved 3 sessions of custom-wavelength fractional CO2 laser paired with platelet-rich fibrin (PRF) to stimulate cellular building blocks.',
-    beforeUrl: '/src/assets/images/acne_before_1781107125280.png',
-    afterUrl: '/src/assets/images/acne_after_1781107143360.png',
+    beforeUrl: acneBefore,
+    afterUrl: acneAfter,
     duration: '3 Sessions',
     recovery: '4-5 days per session',
     patientBio: 'Patient, 24. Professional based in Kanpur. Six-month follow-up showing 85% scar floor improvement.'
@@ -20,8 +25,8 @@ export const TREATMENT_CASES: TreatmentCase[] = [
     title: 'Non-Surgical Skin Tightening & Hydration',
     type: 'Aesthetic Anti-Aging & Glow',
     description: 'A comprehensive approach combining High-Intensity Focused Ultrasound (HIFU) for deep-layer SMAS lifting, followed by active multi-molecule Hyaluronic acid dermal hydration to boost natural luminosity.',
-    beforeUrl: '/src/assets/images/acne_before_1781107125280.png', // Fallback or reusing to ensure clean rendering
-    afterUrl: '/src/assets/images/acne_after_1781107143360.png',
+    beforeUrl: acneBefore, // Fallback or reusing to ensure clean rendering
+    afterUrl: acneAfter,
     duration: '1.5 hrs',
     recovery: 'Immediate (Zero Downtime)',
     patientBio: 'Patient, 32. Visible improvement in jawline contouring and surface radiance. Photo taken 14 days post-treatment.'
