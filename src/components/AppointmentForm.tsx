@@ -52,7 +52,7 @@ export function AppointmentForm({ initialProcedure = '', onSuccess }: Appointmen
           Consultation Request Filed
         </h3>
         <p className="text-neutral-500 text-sm max-w-md mx-auto mb-8 font-sans leading-relaxed">
-          Thank you, <span className="font-semibold text-neutral-800">{formData.fullName}</span>. Dr. Vaishnavi Sahu’s desk at Kidwai Nagar, Kanpur has received your draft request. A care coordinator will contact you via phone (<span className="text-neutral-800 font-medium">{formData.telephone}</span>) or email to lock in your clinical slot.
+          Thank you, <span className="font-semibold text-neutral-800">{formData.fullName}</span>. Dr. Puja Kumari Gupta’s desk at Kidwai Nagar, Kanpur has received your draft request. A care coordinator will contact you via phone (<span className="text-neutral-800 font-medium">{formData.telephone}</span>) or email to lock in your clinical slot.
         </p>
         
         <div className="bg-white border border-neutral-100 p-6 rounded-xs max-w-lg mx-auto text-left shadow-xs mb-8">
@@ -179,7 +179,7 @@ export function AppointmentForm({ initialProcedure = '', onSuccess }: Appointmen
           </label>
           <textarea
             rows={3}
-            placeholder="Tell us, in your own words, what skincare goals or challenges you would like Dr. Sahu to assess..."
+            placeholder="Tell us, in your own words, what skincare goals or challenges you would like Dr. Gupta to assess..."
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
             className="w-full bg-transparent border-none text-neutral-900 placeholder-neutral-300 text-sm focus:outline-hidden py-1 px-0 font-sans resize-none"

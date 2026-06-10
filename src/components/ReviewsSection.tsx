@@ -230,7 +230,7 @@ export function ReviewsSection({ onAddReview }: ReviewsSectionProps) {
                 <textarea
                   required
                   rows={4}
-                  placeholder="Share details of your clinical diagnosis, your transformation, and interaction with Dr. Vaishnavi Sahu..."
+                  placeholder="Share details of your clinical diagnosis, your transformation, and interaction with Dr. Puja Kumari Gupta..."
                   value={newText}
                   onChange={(e) => setNewText(e.target.value)}
                   className="w-full bg-white border border-neutral-200 text-neutral-900 rounded-xs py-2 px-3 text-sm focus:outline-hidden focus:border-[#C5A880] resize-none"
@@ -305,7 +305,7 @@ export function ReviewsSection({ onAddReview }: ReviewsSectionProps) {
                   <div className="flex items-center space-x-1">
                     <Sparkles className="w-3 h-3 text-[#C5A880]" />
                     <span className="text-[9px] uppercase font-mono tracking-widest text-neutral-800 font-bold">
-                      Response from Dr. Vaishnavi Sahu
+                      Response from Dr. Puja Kumari Gupta
                     </span>
                   </div>
                   <p className="text-[11px] text-neutral-500 font-sans italic leading-relaxed">

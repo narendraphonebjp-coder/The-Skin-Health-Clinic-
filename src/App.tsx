@@ -81,7 +81,7 @@ export default function App() {
                       of healthy skin.
                     </h1>
                     <p className="text-neutral-500 font-sans text-sm md:text-base leading-relaxed max-w-md">
-                      Dr. Vaishnavi Sahu, MD — a practice devoted to clinical precision, dermal anatomy, and skin rejuvenation results that go unnoticed by everyone except your own mirror. We believe in restore, rather than alter.
+                      Dr. Puja Kumari Gupta, MD — a practice devoted to clinical precision, dermal anatomy, and skin rejuvenation results that go unnoticed by everyone except your own mirror. We believe in restore, rather than alter.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
                       <button
@@ -107,13 +107,13 @@ export default function App() {
                       <div className="relative border border-neutral-200/50 overflow-hidden bg-neutral-100 rounded-2xs aspect-[4/5] sm:aspect-[3/4]">
                         <img
                           src={DOCTOR_PORTRAIT}
-                          alt="Dr. Vaishnavi Sahu"
+                          alt="Dr. Puja Kumari Gupta"
                           className="w-full h-full object-cover grayscale-10 hover:grayscale-0 transition-all duration-700"
                           referrerPolicy="no-referrer"
                         />
                         <div className="absolute bottom-6 left-6 right-6 bg-white/70 backdrop-blur-md border border-white/40 p-4 rounded-xs flex justify-between items-center">
                           <div>
-                            <h4 className="font-serif font-black text-sm text-neutral-950">Dr. Vaishnavi Sahu, MD</h4>
+                            <h4 className="font-serif font-black text-sm text-neutral-950">Dr. Puja Kumari Gupta, MD</h4>
                             <p className="text-[10px] font-mono uppercase text-[#C5A880] tracking-wider">GSVM Kanpur Gold Medalist • Fellow NSC Singapore</p>
                           </div>
                           <span className="text-[10px] font-mono text-neutral-500">Kidwai Nagar</span>
@@ -156,7 +156,7 @@ export default function App() {
                       "Skin health, when approached with custom and precise clinical biology, is invisible yet completely transformative. My target is to support you in regaining that quiet, plump, vital version of yourself your skin already remembers."
                     </p>
                   </div>
-                  <span className="block text-xs font-mono uppercase tracking-wider text-neutral-400">— Dr. Vaishnavi Sahu, MD</span>
+                  <span className="block text-xs font-mono uppercase tracking-wider text-neutral-400">— Dr. Puja Kumari Gupta, MD</span>
                 </section>
 
                 {/* Interactive Featured Case with Slider */}
@@ -296,7 +296,7 @@ export default function App() {
                     {/* Testimonials snippet index */}
                     <div className="bg-white border border-neutral-200/80 p-6 rounded-xs space-y-4 flex flex-col justify-between shadow-2xs">
                       <p className="text-xs font-sans leading-relaxed text-neutral-600 italic">
-                        "After years of severe scars, Dr. Vaishnavi's fractional CO2 lasers cleared my hyperpigmentation. The most authentic guidance ever."
+                        "After years of severe scars, Dr. Puja's fractional CO2 lasers cleared my hyperpigmentation. The most authentic guidance ever."
                       </p>
                       <div className="flex justify-between items-center bg-[#FAF8F5] p-3 rounded-xs text-[10px]">
                         <div>
@@ -353,7 +353,7 @@ export default function App() {
                     <div className="border border-neutral-200 overflow-hidden rounded-xs bg-neutral-100 aspect-[4/5] shadow-xs">
                       <img
                         src={DOCTOR_PORTRAIT}
-                        alt="Dr. Sahu Profile Portrait"
+                        alt="Dr. Gupta Profile Portrait"
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
                       />
@@ -366,7 +366,7 @@ export default function App() {
                       "Dermal biology requires both meticulous scientific rigor and an eye for physical proportionality. True aesthetic care leaves no trace of the doctor."
                     </p>
                     <p>
-                      Dr. Vaishnavi Sahu was raised in Uttar Pradesh inside a family dedicated deeply to healthcare and medical administration. The visual concepts of biological proportions, skin lesions, and clean surgical hygiene became her life mission.
+                      Dr. Puja Kumari Gupta was raised in Uttar Pradesh inside a family dedicated deeply to healthcare and medical administration. The visual concepts of biological proportions, skin lesions, and clean surgical hygiene became her life mission.
                     </p>
                     <p>
                       She pursued her formal medical training at the celebrated <strong>King George's Medical University (KGMU)</strong> in Lucknow, graduating with distinction honor roll in dermatology. Following her MBBS, she earned her Doctor of Medicine (MD) degree in Dermatology, Venereology, and Leprosy from the historic <strong>GSVM Medical College in Kanpur</strong> as the cohort gold medalist.
@@ -546,7 +546,7 @@ export default function App() {
                     Request a <span className="italic text-neutral-500 font-light">private</span> consultation.
                   </h1>
                   <p className="text-neutral-500 font-sans text-xs">
-                     Draft an appointment outline directly to Dr. Vaishnavi Sahu’s desk. We protect biological privacy; no medical charts or photos are processed over public pipelines.
+                     Draft an appointment outline directly to Dr. Puja Kumari Gupta’s desk. We protect biological privacy; no medical charts or photos are processed over public pipelines.
                   </p>
                 </div>
 
@@ -594,7 +594,7 @@ export default function App() {
                     </div>
 
                     <div className="pt-8 border-t border-neutral-100 mt-8 text-[11px] text-neutral-400 font-sans leading-relaxed">
-                      All diagnostic audits are supervised by Dr. Sahu. A non-refundable consultation/clinic reservation fee of ₹500 is collected upon arrival confirmation and credited directly toward any booked procedures.
+                      All diagnostic audits are supervised by Dr. Gupta. A non-refundable consultation/clinic reservation fee of ₹500 is collected upon arrival confirmation and credited directly toward any booked procedures.
                     </div>
                   </div>
 

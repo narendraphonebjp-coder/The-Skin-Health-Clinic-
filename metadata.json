@@ -1,6 +1,6 @@
 {
   "name": "The Skin Health Clinic",
-  "description": "Premium dermatology and aesthetic clinic website for Dr. Vaishnavi Sahu in Kidwai Nagar, Kanpur, featuring treatments, patient before-and-after sliders, and Google Maps reviews.",
+  "description": "Premium dermatology and aesthetic clinic website for Dr. Puja Kumari Gupta in Kidwai Nagar, Kanpur, featuring treatments, patient before-and-after sliders, and Google Maps reviews.",
   "requestFramePermissions": ["geolocation"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

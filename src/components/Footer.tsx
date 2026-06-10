@@ -18,7 +18,7 @@ export function Footer({ onNavigate }: FooterProps) {
               <span className="font-serif font-semibold text-lg tracking-tight">The Skin Health Clinic</span>
             </div>
             <p className="text-xs text-neutral-400 leading-relaxed font-sans max-w-sm">
-              An international-standard dermatology and aesthetic medicine studio dedicated to clinical accuracy, clean architecture, and healthy skin transformations. Under the supervision of Dr. Vaishnavi Sahu, MD.
+              An international-standard dermatology and aesthetic medicine studio dedicated to clinical accuracy, clean architecture, and healthy skin transformations. Under the supervision of Dr. Puja Kumari Gupta, MD.
             </p>
             <div className="text-[10px] font-mono tracking-wider text-neutral-500 uppercase flex items-center space-x-1.5">
               <ShieldAlert className="w-3.5 h-3.5 text-[#C5A880]" />

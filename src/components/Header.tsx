@@ -35,7 +35,7 @@ export function Header({ activeTab, setActiveTab, onRequestConsultation }: Heade
               The Skin Health Clinic
             </span>
             <span className="text-[9px] tracking-widest uppercase font-mono text-[#C5A880] -mt-1">
-              Dr. Vaishnavi Sahu
+              Dr. Puja Kumari Gupta
             </span>
           </div>
         </div>
